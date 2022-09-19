@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+<head>
+ <title>
+  JavaScript Array map() Method
+ </title>
+</head>
+
+<body>
+ <div id="root"></div>
+ 
+ <!-- Script to use Array map() Method -->
+ <script>
+ 
+//   var el = document.getElementById('root').innerHTML=JSON.stringify(newArr);
+  // var arr = [2, 5, 6, 3, 8, 9];
+  
+  // var newArr = arr.map(function(val, index){
+  //  return {prob:index, ans:val*val};
+  // })
+  
+  // console.log(newArr)
+  // var el = document.getElementById('root').innerHTML=JSON.stringify(newArr);
+  
+//   el.innerHTML = JSON.stringify(newArr);
+
+
+
+let box1 = [0,1,2,3,4,5,6];
+let box2 = box1.map(function(value,index){
+  return{Q:index, A:value*2};
+})
+let answer = document.getElementById('root').innerHTML=JSON.stringify(box2)
+ </script>
+</body>
+
+</html>   
